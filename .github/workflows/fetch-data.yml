@@ -24,7 +24,7 @@ jobs:
         run: pip install yfinance requests pandas beautifulsoup4
 
       - name: Run data fetcher
-        run: python fetch_data.py
+        run: python ../../fetch_data.py
         env:
           MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
 
