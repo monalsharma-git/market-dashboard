@@ -1,5 +1,4 @@
 name: Fetch Market Data
-
 on:
   schedule:
     - cron: '0 22 * * 1-5'
